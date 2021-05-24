@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+set(CMAKE_CXX_FLAGS "${CMAE_CXX_FLAGS} -std=c++11 -Wal -pedantic")
+add_executable(prog_01 U_Date.cpp)
+add_executable(prog_02 LongNum.cpp)
+add_executable(prog_03 Adam.cpp)
+add_executable(prog_03 Matrix.cpp)
